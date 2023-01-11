@@ -58,7 +58,7 @@ $
 * Or via the Web Terminal
 * In the container, start MySQL before playing with it
 
-```bash
+```sql
 $ service mysql start
 * MySQL Community Server 5.7.30 is started
 $
@@ -72,11 +72,11 @@ sys
 $
 ```
 
-**In the container, credentials are `root/root`
+**In the container, credentials are `root/root`**
 
 ## How to import a SQL dump
 
-```bash
+```sql
 $ echo "CREATE DATABASE hbtn_0d_tvshows;" | mysql -uroot -p
 Enter password:
 $ curl "https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql" -s | mysql -uroot -p hbtn_0d_tvshows
