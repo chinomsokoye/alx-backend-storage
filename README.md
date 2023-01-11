@@ -3,7 +3,7 @@ Curriculum <br>
 
 # 0x00. MySQL advanced
 
-`Back-end` `SQL` `MySQL`
+`Back-end` `SQL` `MySQL` `Databases`
 
 #### Concepts
 
