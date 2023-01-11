@@ -23,7 +23,7 @@ _For this project, look at these concepts:_
 * [Functions and Operators](https://dev.mysql.com/doc/refman/5.7/en/functions.html)
 * [Trigger Syntax and Examples](https://dev.mysql.com/doc/refman/5.7/en/trigger-syntax.html)
 * [CREATE TABLE Statement](https://dev.mysql.com/doc/refman/5.7/en/create-table.html)
-* []CREATE PROCEDURE and CREATE FUNCTION Statements(https://dev.mysql.com/doc/refman/5.7/en/create-procedure.html)
+* [CREATE PROCEDURE and CREATE FUNCTION Statements](https://dev.mysql.com/doc/refman/5.7/en/create-procedure.html)
 * [CREATE INDEX Statement](https://dev.mysql.com/doc/refman/5.7/en/create-index.html)
 * [CREATE VIEW Statement](https://dev.mysql.com/doc/refman/5.7/en/create-view.html)
 
@@ -58,7 +58,7 @@ $
 * Or via the Web Terminal
 * In the container, start MySQL before playing with it
 
-```mysql
+```bash
 $ service mysql start
 * MySQL Community Server 5.7.30 is started
 $
@@ -76,7 +76,7 @@ $
 
 ## How to import a SQL dump
 
-```mysql
+```bash
 $ echo "CREATE DATABASE hbtn_0d_tvshows;" | mysql -uroot -p
 Enter password:
 $ curl "https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql" -s | mysql -uroot -p hbtn_0d_tvshows
