@@ -4,5 +4,5 @@
 -- Use attributes formed and split for computing lifespan
 -- Script should execute on any database
 
-SELECT band_name, COALESCE(split, 2020) - formed as lifespan FROM metal_bands
-WHERE style LIKE '%Glam rock%' ORDER BY lifespan DESC;
+SELECT band_name, COALESCE(split, 2020) - formed AS lifespan FROM metal_bands
+WHERE style LIKE '%Glam rock%' ;
