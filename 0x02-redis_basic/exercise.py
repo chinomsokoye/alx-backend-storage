@@ -65,7 +65,8 @@ def replay(func: Callable):
     fin = '{} was called {} {}:'.format(key_m, calls_number, times_str)
     print(fin)
     for k, v in zip(inp_m, outp_m):
-        fin = '{}(*{}) -> {}'.format(key_m, k.decode('utf-8'), v.decode('utf-8'))
+        fin = '{}(*{}) -> {}'.format(
+            key_m, k.decode('utf-8'), v.decode('utf-8'))
         print(fin)
 
 
@@ -92,7 +93,8 @@ class Cache():
         self._redis.set(gen, data)
         return gen
 
-    def get(self, key: str, fn: Optional[Callable] = None) -> Union[str, bytes, int, float]:
+    def get(self, key: str,
+            fn: Optional[Callable] = None) -> Union[str, bytes, int, float]:
         """
         Convert data back to desired format
         """
