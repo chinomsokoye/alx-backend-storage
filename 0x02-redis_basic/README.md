@@ -10,7 +10,7 @@ Curriculum <br>
 **Read or watch:**
 
 * [Redis commands](https://www.redis.io/commands/)
-* [Redis pyython client](https://www.redis-py.readthedocs.io/en/stable/)
+* [Redis python client](https://www.redis-py.readthedocs.io/en/stable/)
 * [How to Use Redis With Python](https://www.realpython.com/python-redis/)
 * [Redis Crash Course Tutorial](https://www.youtube.com/watch?v=Hbt56gFj998)
 
