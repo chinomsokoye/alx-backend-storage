@@ -27,7 +27,7 @@ def count_calls(method: Callable) -> Callable:
     return wrapper
 
 
-def call_history(methos: Callable) -> Callable:
+def call_history(method: Callable) -> Callable:
     """
     Prototype: def call_history(method: Callable) -> Callable:
     Returns a Callable
